@@ -65,8 +65,8 @@ dp[2][3]은 **dp[1][1]**와 dp[1][2]중 작은 값을 자기자신 data[2][3]과
 	#define min(a,b) a<b?a:b
 	using namespace std;
 
-	int dp[4][1002];
-	int data[4][1002];
+	int dp[1002][4];
+	int data[1002][4];
 	
 	int main(){
 		int i, j, n, min;
