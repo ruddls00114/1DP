@@ -1,8 +1,8 @@
-### 소트인사이드 ###
+### 최소공배수 ###
 
-문제번호 : 1427 번
+문제번호 : 13241 번
 
-문제링크 : [https://www.acmicpc.net/problem/1427](https://www.acmicpc.net/problem/1427)
+문제링크 : [https://www.acmicpc.net/problem/13241](https://www.acmicpc.net/problem/13241)
 
 ----------
 
@@ -39,8 +39,7 @@ A와 B의 최소공배수를 한 줄에 출력한다.
 
 
 ## 예제 ##
-![](/Users/user/Desktop/1111.jpg)
-
+![](../../Desktop/1111.jpg)
 
 
 
