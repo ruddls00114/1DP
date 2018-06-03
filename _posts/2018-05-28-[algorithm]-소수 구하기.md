@@ -73,23 +73,22 @@ n= a*b이라고 할때, a >= √n 이면, a * b = n = √n * √n 이므로, b<=
 
 	#include<iostream>
 	#include<cstring>
+	#include<cmath>
 	#define IOFAST() ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
 	using namespace std;
 	int main(){
 		IOFAST();
-		
 		int m, n;
-		bool arr[1000001];
 		cin >> m >> n; 
+		bool arr[1000001];
 		memset(arr, true, sizeof(arr));
-		arr[0] = arr[1] = false; // 0과 1은 소수가 아님.
-		
-		for (int i = 2; i<=sqrt(1000000); i++){ //2~ 1000까지 소수 판별(중복방지를 위해서)
+		arr[0] = arr[1] = false;
+		for (int i = 2; i<=sqrt(1000000); i++){
 	
-			if (arr[i]== false)	continue;	//소수가 아니면 PASS
+			if (arr[i]== false)	continue;
 	
-			for (int j = 2; j <= n/i; j++){	//소수(자신)를 제거한 소수의 배수들을 모두 제거(i*j<=n)
-				arr[i*j] = false;
+			for (int j = 2; j <= n/i; j++){
+				arr[j*i] = false;
 			}
 		}
 		for (int i = m; i <= n; i++){
