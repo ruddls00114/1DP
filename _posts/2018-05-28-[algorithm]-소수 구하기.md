@@ -68,9 +68,7 @@ n= a*b이라고 할때, a >= √n 이면, a * b = n = √n * √n 이므로, b<=
 
 
 
-## 코드 ##
-
-
+## 코드
 
 
 	#include<iostream>
