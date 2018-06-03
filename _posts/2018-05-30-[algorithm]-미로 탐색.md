@@ -112,8 +112,8 @@ N×M크기의 배열로 표현되는 미로가 있다.
 				else{			//위아
 					nr = r + direct[i];
 				};
-	
-	
+
+
 				if (v[nr][nc] == 1){
 					q.push(make_pair(nr, nc));
 					v[nr][nc] = v[r][c] + 1;

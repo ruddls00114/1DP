@@ -71,6 +71,8 @@ n= a*b이라고 할때, a >= √n 이면, a * b = n = √n * √n 이므로, b<=
 ## 코드 ##
 
 
+
+
 	#include<iostream>
 	#include<cstring>
 	#define IOFAST() ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
